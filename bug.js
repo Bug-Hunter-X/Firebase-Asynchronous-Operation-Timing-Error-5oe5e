@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access a document or collection before the asynchronous operation that fetches it has completed. This commonly occurs when attempting to read data from a database directly after a `set()` or `update()` operation without awaiting the promise resolution.
